@@ -1,0 +1,541 @@
+body{
+	background-color: #92c83e;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+.logocontainer{
+	background-color: transparent;
+	width: 650px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	margin-left:auto;
+	margin-right:auto
+}
+.loginBanner
+{
+	font-family:"Arial";
+	font-size:12pt;
+	font-style:bold;
+	color:#333333;
+	text-align:left;
+	margin-left:25px;
+	overflow: hidden;
+	padding-top:-10px;
+	margin-top:-10px;
+	width: 600px;
+
+}
+.districtAnnouncements
+{
+	font-family:"Arial";
+	font-size:12pt;
+	font-style:bold;
+	color:#333333;
+	text-align:left;
+	margin-left:25px;
+	overflow: hidden;
+	width: 600px;
+
+}
+
+.loginBanner2
+{
+	font-family:"Arial";
+	font-size:12pt;
+	font-style:bold;
+	color:#333333;
+	text-align:left;
+	margin-left:25px;
+	overflow: hidden;
+	padding-top:-10px;
+	margin-top:-20px;
+	width: 600px;
+
+}
+a:link {
+text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009EDD;
+}
+a:visited {
+text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009EDD;
+}
+.loginBody
+{
+	text-align:left;
+	color:grey;
+	width:600px;
+	margin-left:25px;
+	margin-bottom:5px;
+	white-space:normal;
+
+}
+.loginBody2
+{
+	text-align:left;
+	color:grey;
+	margin-left:25px;
+	margin-bottom:50px;
+	width: 600px;
+
+}
+p {
+  margin: 0em;
+
+  width: 600px;
+
+}
+
+.date
+{
+	color:red;
+	text-align:left;
+	font-style:bold;
+	font-family:"Arial";
+	font-size:10pt;
+	color:#F26126;
+
+}
+.helptext
+{
+
+	top:1px;
+	background-color:#F26126;
+	text-align:right;
+	float:right;
+	color:white;
+	font-family:"Arial";
+	font-style:bold;
+	font-size:9pt;
+	cursor: pointer;
+	height:17px;
+	vertical-align:top;
+	padding-top:3px;
+	padding-bottom:1px;
+
+
+}
+.sep
+{
+	border-top: 1pt solid #A6A6A6;
+	position: relative;
+	top:10px;
+	width:530px;
+
+}
+.sep2
+{
+	border-top: 1pt solid #A6A6A6;
+}
+.sep3
+{
+	border-top: 1pt solid #A6A6A6;
+	position: relative;
+	top:10px;
+	width:570px;
+}
+.sepie
+{
+	border-top: 1pt solid #A6A6A6;
+	position: relative;
+	top:20px;
+	width:535px;
+
+}
+.sep2ie
+{
+	border-top: 1pt solid #A6A6A6;
+}
+.sep3ie
+{
+	border-top: 1pt solid #A6A6A6;
+	position: relative;
+	top:25px;
+	width:570px;
+}
+.loginLink
+{
+	font-family:"Arial";
+	font-size:10pt;
+}
+.key
+{
+	font-family:"Arial";
+	color:black;
+	font-size:10pt;
+}
+.frmcontainer{
+	background-color: #ffffff;
+	box-shadow: -4px 4px 2px #7FA72D;
+	width: 650px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto
+
+}
+.frmcontainer2{
+	background-color: #ffffff;
+	box-shadow: -4px 4px 2px #7FA72D;
+	width: 650px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto
+}
+.notice{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family: Arial;
+	font-size: 10pt;
+	color: #333333;
+	padding-left:20px;
+	text-align:left;
+}
+.appinfo{
+	background-color: transparent;
+	width: 650px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Arial;
+	font-size: 10px;
+	color: white;
+}
+.appinfo a{
+	font-family: Arial;
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+}
+.appinfo .appserver{
+	font-family: Arial;
+	font-size: 10px;
+	color: #92c83e;
+}
+#form_signin{
+	text-align: left;
+	padding: 25px 25px 0 25px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.passwordreset{
+	text-align:left;
+	font-family:Arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left:25px;
+	margin-right:25px;
+
+}
+
+label{line-height: 18px; vertical-align:middle;}
+.captcha{
+	padding: 0px;
+	width: 164px;
+	height: 22px;
+	margin: 2px;
+}
+
+.signinbtn{
+	vertical-align:middle;
+}
+.statusmsg{
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.errorMessage {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+.editionbox{
+	float: right;
+	vertical-align: top;
+	position: relative;
+	text-align: right;
+	top: -18px;
+	right: -11.2px;
+}
+.securitylabel{
+	font-family: Arial;
+	font-size: 12px;
+	color: #f26126;
+	padding: 4px;
+}
+.versionmsgtd{
+	padding-right: 15px;
+
+}
+.versionmsg{
+	font-family: Arial;
+	font-size: 12px;
+	color: #f26126;
+	padding: 4px;
+}
+.fillertd{
+	width:40px;
+}
+.lefteditionbox{
+	background-repeat: no-repeat;
+	width:24.2px;
+	height:37px;
+	margin: 0;
+	padding: 0;
+}
+.centereditionbox{
+	background-repeat: repeat-x;
+	text-align: right;
+	height: 37px;
+	min-width: 10px;
+	padding-right: 15px;
+	margin: 0;
+	display: block;
+}
+.righteditionbox{
+	background-repeat: no-repeat;
+	width:11px;
+	height:48px;
+	margin: 0;
+	padding: 0;
+}
+.editiontext{
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	line-height: 34px;
+}
+.forgotpasswd {
+	cursor: pointer;
+}
+.forgotpasswd{
+	text-decoration: none;
+	margin-top:10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009EDD;
+}
+.captcha-help {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009EDD;
+	width: 20em;
+}
+.contacttext{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+.contacttext2{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	margin-top:-15px;
+}
+.test
+{
+	display:none;
+	margin-bottom:-30px;
+}
+/* captcha styling*/
+#cwrapper{
+	width: 199px;
+	height: 102px;
+	border: 1px solid #adadaf;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 2px 0 2px 0;
+}
+.captchasignin{
+	padding: 10px;
+}
+#cimagectn{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+}
+#cinputctn{
+	width:166px;
+	height:26px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+#cinput{
+	padding:0;
+	width:162px;
+	height:22px;
+	margin: 2px;
+}
+#creload{
+	width:26px;
+	height:26px;
+	margin:0;
+	margin-right:4px;
+	padding:0;
+	float:left;
+}
+#reloadimg{
+	text-align:right;
+	margin:2px;
+	padding:0;
+}
+#usernamebox, #passwordbox{
+	padding-top:10px;
+}
+.passwordToggle, .userNameToggle, .helpToggle {
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	margin-top:10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009EDD;
+}
+.adfslogin{
+    appearance: button;
+    -moz-appearance: button;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    border:#C6C6C6 1px solid;
+    color:black;
+    display: inline-block;
+    padding: 4px 8px 4px 8px;
+    background-color: #f4f4f4;
+    position:relative;
+    min-width: 182px;
+    height: 15px;
+    text-align: center;
+}
+.adfslogin:hover,.passwordResetButton:hover{
+    background-color: #808080;
+    color:#ffffff;
+}
+.passwordResetButton {
+	vertical-align: top;
+	appearence: button;
+	-moz-appearance: button;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	border:#C6C6C6 1px solid;
+	color:black;
+	display: inline-block;
+	background-color: #f4f4f4;
+	position:relative;
+	min-width: 100px;
+	height: 22px;
+	text-align: center;
+	padding-top: 2px;
+
+}
+.passwordResetInput {
+	width: 256px;
+	height: 16px;
+}
+
+.msgPadding {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.msgFont {
+	font-family: Arial;
+}
+
+/* layout css */
+.container2{margin: 33px 0 0px 0; overflow: hidden;}
+.container4{margin: 20px 0 -15px 0; overflow: hidden;}
+.container3{margin: -10px 0 10px 0; overflow: hidden;}
+.container{margin: 10px 0 10px 0; }
+.container5{margin: 10px 0 10px 0; }
+.span9{width: 600px; bottom:-30px; position: relative;}
+.span8{width: 600px; bottom:5px; position: relative;}
+.span4{width: 300px;}
+.span2{width: 200px;}
+.floatleft{float: left;}
+.floatright{float: right;}
+.clear{margin-top: 10px; clear: both;}
+.alignright{text-align: right;}
+.alignleft{text-align:left;}
+.testhr
+{
+border: 0;
+height: 1px;
+background-color: #adadaf;
+width:530px;
+position: relative;
+top:17px;
+right:37px;
+
+}
+.testhr2
+{
+border: 0;
+height: 1px;
+background-color: #adadaf;
+width:580px;
+position: relative;
+top:18px;
+right:20px;
+
+
+}
+hr{margin-top: 1px;  border: 0; height: 1px;background-color: #adadaf;padding-bottom:-100px;}
+
+.helpDiv {
+	display: none;
+	text-align: left;
+	font-size: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.line-center{
+	padding:0 5px;
+	background:#fff;
+	font-size: 15px;
+}
+
+h2{
+	position:relative;
+	z-index:2;
+}
+
+h2:after{
+	content:"";
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	border-top:solid 1px black;
+	z-index:-1;
+}
